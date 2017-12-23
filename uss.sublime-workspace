@@ -1,0 +1,506 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"not-allowed"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"inlne",
+				"inline-block"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"head",
+				"header\tTag"
+			],
+			[
+				"tran",
+				"translateY()"
+			],
+			[
+				"trans",
+				"transition-duration"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"tra",
+				"transition-duration"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"hea",
+				"headA"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"Inse",
+				"InsertAtEnd"
+			],
+			[
+				"seq",
+				"seqList"
+			],
+			[
+				"ex",
+				"exclude_index"
+			],
+			[
+				"cl",
+				"clone"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"bi",
+				"binarySearchRec"
+			],
+			[
+				"is",
+				"isBalanced"
+			],
+			[
+				"memo",
+				"memoio"
+			],
+			[
+				"path",
+				"paths"
+			],
+			[
+				"coun",
+				"countPathsMemo"
+			],
+			[
+				"cou",
+				"countPaths"
+			],
+			[
+				"num",
+				"number_of_steps"
+			],
+			[
+				"ma",
+				"max_row"
+			],
+			[
+				"max",
+				"max_col"
+			],
+			[
+				"get",
+				"getRegionSize"
+			],
+			[
+				"Http",
+				"HttpResponseRedirect\tclass"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"rand",
+				"random_string_generator\tfunction"
+			],
+			[
+				"con",
+				"context\tstatement"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"devic",
+				"deviceToken"
+			],
+			[
+				"fom",
+				"from_user_id"
+			],
+			[
+				"user",
+				"userQuery"
+			],
+			[
+				"from",
+				"from_user_id"
+			],
+			[
+				"not",
+				"notification"
+			],
+			[
+				"notifi",
+				"notification_id"
+			],
+			[
+				"dev",
+				"deviceToken"
+			],
+			[
+				"notif",
+				"Notification"
+			],
+			[
+				"usre",
+				"user_id"
+			],
+			[
+				"noti",
+				"notification_id"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 373.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/shubhamkushwah/PycharmProjects/USS"
+	],
+	"file_history":
+	[
+		"/Users/shubhamkushwah/PycharmProjects/USS/README.md",
+		"/Users/shubhamkushwah/my_docs/sk-github/css/base-style.css",
+		"/Users/shubhamkushwah/my_docs/sk-github/css/social_style.css",
+		"/Users/shubhamkushwah/my_docs/sk-github/README.md",
+		"/Users/shubhamkushwah/my_docs/sk-github/index.html",
+		"/Users/shubhamkushwah/my_docs/sk-github/base-style.css",
+		"/Users/shubhamkushwah/cp/main.cpp",
+		"/Users/shubhamkushwah/cp/output.txt",
+		"/Users/shubhamkushwah/cp/input.txt",
+		"/Users/shubhamkushwah/Downloads/android-UniversalMusicPlayer/mobile/src/main/AndroidManifest.xml",
+		"/Users/shubhamkushwah/Desktop/AndroidManifest.xml",
+		"/Users/shubhamkushwah/Downloads/univ_college.csv",
+		"/Users/shubhamkushwah/Downloads/Report-66-2704201512525131PM-2012-2013.csv",
+		"/Library/WebServer/Documents/index.html.en~orig",
+		"/Library/WebServer/Documents/index.html.en",
+		"/Users/shubhamkushwah/my_docs/github_recovery",
+		"/Users/shubhamkushwah/.ssh/id_rsa.pub",
+		"/Users/shubhamkushwah/PycharmProjects/cursivethought/document/static/home/data/world_universities.csv",
+		"/Users/shubhamkushwah/Desktop/world_universities.csv",
+		"/Users/shubhamkushwah/Downloads/country-keyword-list.csv",
+		"/Users/shubhamkushwah/Google-Backup/files/Image To Typing.pdb",
+		"/Users/shubhamkushwah/Google-Backup/files/Image To Typing.vshost.exe.config",
+		"/Users/shubhamkushwah/Google-Backup/files/Ionic.Zip.dll",
+		"/Users/shubhamkushwah/Google-Backup/files/Image To Typing.vshost.exe.manifest",
+		"/Users/shubhamkushwah/cp/codes/data structures/trees/tree_intro.txt",
+		"/Users/shubhamkushwah/cp/codes/data structures/trees/binary_tree.txt",
+		"/Users/shubhamkushwah/cp/codes/data structures/trees/terms.txt",
+		"/Users/shubhamkushwah/cp/codes/data structures/queue/queue_using_linked_list.cpp",
+		"/Users/shubhamkushwah/cp/codes/data structures/queue/queue_using_array.cpp",
+		"/Users/shubhamkushwah/cp/codes/data structures/linked lists/delete_kth_node_recursive.cpp",
+		"/Users/shubhamkushwah/cp/codes/data structures/linked_list.cpp",
+		"/Users/shubhamkushwah/cp/codes/data structures/linked_list_reversed_iterative.cpp",
+		"/Users/shubhamkushwah/cp/codes/data structures/stack_using_array.cpp",
+		"/Users/shubhamkushwah/cp/codes/data structures/linked_list_reversed.cpp",
+		"/Users/shubhamkushwah/cp/codes/bitwise_operators.cpp",
+		"/Users/shubhamkushwah/cp/codes/sorting/quick_sort.cpp",
+		"/Users/shubhamkushwah/cp/codes/sorting/merge_sort.cpp",
+		"/Users/shubhamkushwah/cp/codes/staircase.cpp",
+		"/Users/shubhamkushwah/cp/codes/selection_sort.cpp",
+		"/Users/shubhamkushwah/cp/codes/insertion_sort.cpp",
+		"/Users/shubhamkushwah/cp/codes/bubble_sort.cpp",
+		"/Users/shubhamkushwah/cp/codes/ice_cream_parlor.cpp",
+		"/Users/shubhamkushwah/cp/codes/binary_search.cpp",
+		"/Users/shubhamkushwah/cp/codes/balanced_string.cpp",
+		"/Users/shubhamkushwah/cp/codes/fibonacci.cpp",
+		"/Users/shubhamkushwah/cp/codes/connected_cells-DFS.cpp",
+		"/Users/shubhamkushwah/cp/main",
+		"/Users/shubhamkushwah/Library/Application Support/Sublime Text 3/Packages/WakaTime/WakaTime.sublime-settings",
+		"/usr/local/include/bits/new",
+		"/usr/local/include/bits/stdc++.h",
+		"/Users/shubhamkushwah/PycharmProjects/django_tutorial/src/restaurants/templates/restaurants/form.html",
+		"/Users/shubhamkushwah/PycharmProjects/django_tutorial/src/restaurants/utils.py",
+		"/Users/shubhamkushwah/PycharmProjects/django_tutorial/src/templates/snippets/nav.html",
+		"/Users/shubhamkushwah/PycharmProjects/django_tutorial/src/muypicky/urls.py",
+		"/Users/shubhamkushwah/PycharmProjects/django_tutorial/src/restaurants/views.py",
+		"/Users/shubhamkushwah/PycharmProjects/django_tutorial/src/restaurants/forms.py",
+		"/Users/shubhamkushwah/PycharmProjects/django_tutorial/src/restaurants/models.py",
+		"/Users/shubhamkushwah/PycharmProjects/django_tutorial/src/templates/home.html",
+		"/Users/shubhamkushwah/PycharmProjects/django_tutorial/src/templates/base.html",
+		"/Users/shubhamkushwah/PycharmProjects/django_tutorial/src/templates/snippets/css.html",
+		"/Users/shubhamkushwah/PycharmProjects/django_tutorial/src/templates/snippets/js.html",
+		"/Users/shubhamkushwah/PycharmProjects/django_tutorial/src/templates/contact.html",
+		"/Users/shubhamkushwah/PycharmProjects/django_tutorial/src/muypicky/settings/__init__.py",
+		"/Users/shubhamkushwah/PycharmProjects/django_tutorial/src/muypicky/settings/base.py",
+		"/Users/shubhamkushwah/PycharmProjects/django_tutorial/src/muypicky/settings/production.py",
+		"/Users/shubhamkushwah/PycharmProjects/django_tutorial/src/muypicky/settings/local.py",
+		"/Users/shubhamkushwah/Desktop/index.html",
+		"/Users/shubhamkushwah/Downloads/index2.html",
+		"/Users/shubhamkushwah/PycharmProjects/django-enterpreneur/src/temp_django/settings/local.py",
+		"/Users/shubhamkushwah/PycharmProjects/django-enterpreneur/src/temp_django/settings/production.py",
+		"/Users/shubhamkushwah/PycharmProjects/django-enterpreneur/src/temp_django/settings/__init__.py",
+		"/Users/shubhamkushwah/PycharmProjects/django-enterpreneur/src/temp_django/settings/base.py",
+		"/Users/shubhamkushwah/Documents/notificationFunction/functions/node_modules/firebase-admin/node_modules/hawk/README.md",
+		"/Users/shubhamkushwah/Documents/notificationFunction/functions/node_modules/firebase-admin/node_modules/node-forge/lib/ssh.js",
+		"/Users/shubhamkushwah/Desktop/diesel/mysite/personal/templates/personal/header.html",
+		"/Users/shubhamkushwah/Desktop/diesel/mysite/blog/templates/blog/blog.html",
+		"/Users/shubhamkushwah/Desktop/diesel/mysite/blog/urls.py",
+		"/Users/shubhamkushwah/Desktop/diesel/mysite/blog/migrations/__init__.py",
+		"/Users/shubhamkushwah/Desktop/diesel/mysite/blog/models.py",
+		"/Users/shubhamkushwah/Desktop/diesel/mysite/mysite/urls.py",
+		"/Users/shubhamkushwah/Desktop/diesel/mysite/mysite/settings.py",
+		"/Users/shubhamkushwah/Desktop/diesel/mysite/personal/urls.py",
+		"/Users/shubhamkushwah/Desktop/diesel/mysite/personal/templates/personal/basic.html",
+		"/Users/shubhamkushwah/Desktop/diesel/mysite/personal/views.py",
+		"/Users/shubhamkushwah/Desktop/diesel/mysite/personal/static/personal/css/style.css",
+		"/Users/shubhamkushwah/Desktop/diesel/mysite/personal/static/css/style.css",
+		"/Users/shubhamkushwah/Desktop/diesel/mysite/personal/templates/personal/includes/htmlsnippet.html",
+		"/Users/shubhamkushwah/Desktop/diesel/mysite/personal/templates/personal/home.html",
+		"/Users/shubhamkushwah/Documents/TechFest-HMRITM/Images/robotics_slider.svg",
+		"/Users/shubhamkushwah/Documents/TechFest-HMRITM/Images/projects_slider.svg",
+		"/Users/shubhamkushwah/Documents/TechFest-HMRITM/Images/poster_slider.svg",
+		"/Users/shubhamkushwah/Desktop/universe/sign_in.html",
+		"/Users/shubhamkushwah/Desktop/puzzle.svg",
+		"/Users/shubhamkushwah/Documents/TechFest-HMRITM/README.md",
+		"/Users/shubhamkushwah/Documents/notificationFunction/functions/index.js",
+		"/Users/shubhamkushwah/Desktop/profile.java",
+		"/Users/shubhamkushwah/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/shubhamkushwah/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Users/shubhamkushwah/PycharmProjects/USS"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 48.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 51.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 220.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
