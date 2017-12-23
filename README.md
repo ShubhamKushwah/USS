@@ -38,12 +38,6 @@ $ source bin/activate
 .\Scripts\activate
 ```
 
-Deactivating the environment
-
-```
-$ deactivate
-```
-
 Install Django 1.10.2
 
 ```
