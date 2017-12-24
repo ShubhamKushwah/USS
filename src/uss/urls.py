@@ -16,6 +16,10 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
+from shortener.views import short_redirect_view
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+
+    url(r'^(?P<shortcode>[\w-]+){6,16}/$', short_redirect_view),
 ]

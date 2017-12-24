@@ -1,5 +1,1 @@
-from django.http import HttpResponse
-from django.shortcuts import render
-
-def short_redirect_view(request, *args, **kwargs):
-	return HttpResponse("Hello Gert!")
+from django.http import HttpResponseRedirectfrom django.shortcuts import render, get_object_or_404from .models import ShortUrldef short_redirect_view(request, shortcode=None, *args, **kwargs):	obj = get_object_or_404(ShortUrl, shortcode=shortcode)	return render(request, 'shortener/home.html', {'url': obj.url})
