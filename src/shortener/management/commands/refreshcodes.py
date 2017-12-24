@@ -7,8 +7,8 @@ from shortener.models import ShortUrl
 class Command(BaseCommand):
     help = 'Refreshes all the shortcodes, in the database'
 
-    # def add_arguments(self, parser):
-    #     parser.add_argument('poll_id', nargs='+', type=int)
+    def add_arguments(self, parser):
+        parser.add_argument('number', type=int)
 
     def handle(self, *args, **options):
     	return ShortUrl.objects.refresh_shortcodes()
