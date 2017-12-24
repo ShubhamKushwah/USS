@@ -8,7 +8,12 @@
 
 	<h3 style="text-align: center; color: #2F59F5; margin-top: 3rem; border-bottom: 1px solid #2F59F5; padding: 1rem; font: 2rem 'Bungee', sans-serif;">URL Shortening Service</h3>
 
-	<h6 style="text-align: center; color: #323232; margin-top: 3rem; padding: 1rem; font: 2rem 'Alegreya Sans', sans-serif;">Your requested URL: <strong style="text-decoration: underline;">{{ url }}</strong></h6>
+	<form method="POST" action=".">
+		{% csrf_token %}
+
+		<input name="url" type='text' placeholder="Long url...">
+		<input type='submit' value="Shorten">
+	</form>
 
 </body>
 </html>

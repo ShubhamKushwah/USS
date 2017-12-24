@@ -59,12 +59,12 @@ MIDDLEWARE = [
 ROOT_URLCONF = 'uss.urls'
 ROOT_HOSTCONF = 'uss.hosts'
 DEFAULT_HOST = 'www'
-DEFAULT_REDIRECT_URL = "http://www.uss.com"
+DEFAULT_REDIRECT_URL = "http://www.uss.com:8000"
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, "templates")],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
