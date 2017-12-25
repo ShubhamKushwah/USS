@@ -5,7 +5,7 @@ from shortener.models import ShortUrl
 
 class ClickEventManager(models.Manager):
 	def create_event(self, instance):
-		if isinstance(ShortUrl, instance):
+		if isinstance(instance, ShortUrl):
 			obj, created = self.get_or_create(ussurl=instance)
 			obj.count += 1
 			obj.save()
@@ -14,7 +14,7 @@ class ClickEventManager(models.Manager):
 
 
 class ClickEvent(models.Model):
-	ussurl 		= models.OneToOneField(ShortUrl)
+	ussurl 		= models.OneToOneField(ShortUrl)	# this allows stuffs like: short_url_obj.clickevent.count
 	count 		= models.IntegerField(default=0)
 	updated 	= models.DateTimeField(auto_now=True)
 	timestamp 	= models.DateTimeField(auto_now_add=True)
