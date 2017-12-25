@@ -9,8 +9,5 @@ class SubmitUrlForm(forms.Form):
     		)
     	)
 
-    def clean_url(self):
-    	url = self.cleaned_data['url']
-    	if "http" in url:
-    		return url
-    	return "http://" + url
+    # def clean_url(self):
+    # 	url = self.cleaned_data['url']
