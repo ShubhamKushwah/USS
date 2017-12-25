@@ -2,21 +2,26 @@
 <html>
 <head>
 	{% load staticfiles %}
-	<title>Url Shortening Service</title>
-	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Bungee" rel="stylesheet">
+	<title>USS | A URL Shortening Service</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Alegreya+Sans|Bungee" rel="stylesheet">
 	<link rel="stylesheet" href="{% static 'shortener/style_base.css' %}">
 </head>
 <body>
+	<div class="content">
+		<div class="inside-content">
+			{% block content %}
+			<span class="main_heading">URL Shortening Service | <a href="/admin">Admin</a></span>
 
-	<h3 style="text-align: center; color: #2F59F5; margin-top: 3rem; border-bottom: 1px solid #2F59F5; padding: 1rem; font: 2rem 'Bungee', sans-serif;">URL Shortening Service | <a href="/admin">Admin</a></h3>
-
-	<div style="display: block; text-align: center;">
-		<form method="POST" action=".">
-			{% csrf_token %}
-			{{ form.as_p }}
-			<!-- <input style="padding: 0.5rem; font: 1.2rem 'Bungee', sans-serif; border: 1px solid #323232;" name="url" type='text' placeholder="Long url..."> -->
-			<input class="submit_btn" type='submit' value="Shorten">
-		</form>
+			<div style="display: block; text-align: center;">
+				<form method="POST" action=".">
+					{% csrf_token %}
+					{{ form.as_p }}
+					<!-- <input style="padding: 0.5rem; font: 1.2rem 'Bungee', sans-serif; border: 1px solid #323232;" name="url" type='text' placeholder="Long url..."> -->
+					<input class="submit_btn" type='submit' value="Shorten">
+				</form>
+			</div>
+			{% endblock content %}
+		</div>
 	</div>
 
 </body>

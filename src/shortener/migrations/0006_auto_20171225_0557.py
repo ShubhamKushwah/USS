@@ -16,6 +16,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='shorturl',
             name='url',
-            field=models.CharField(max_length=220, validators=[shortener.validators.validate_url, shortener.validators.validate_dot_com]),
+            field=models.CharField(max_length=220, validators=[shortener.validators.validate_url, shortener.validators.validate_dot]),
         ),
     ]

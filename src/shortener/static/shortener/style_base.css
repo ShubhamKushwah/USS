@@ -1,4 +1,4 @@
-home, body {
+html, body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
@@ -6,6 +6,40 @@ home, body {
 
 body {
 	background-color: #f8f8f8;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.content {
+	width: 100%;
+	padding: 0 1rem;
+	top: 50%;
+	position: absolute;
+	margin-top: -9rem;
+}
+
+.inside-content {
+	text-align: center;
+}
+
+.main_heading {
+	display: inline-block;
+	width: 100%;
+	padding-bottom: 1rem;
+	text-align: center;
+	color: #4CAF50;
+	margin-top: 3rem;
+	font: 2rem 'Bungee', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #2F67F2;
+	padding: 0.2rem;
+	border-bottom: 2px solid #f8f8f8;
+}
+a:hover {
+	color: #0E45E0;
+	border-bottom: 2px solid #0E45E0;
 }
 
 input {
@@ -13,8 +47,8 @@ input {
 	padding: 0.5rem;
 }
 
-label {
-	font: 1.2rem 'Bungee', sans-serif;
+input[type='text'] {
+	font: 1.2rem 'Open Sans', sans-serif;
 }
 
 .submit_btn {
@@ -27,7 +61,7 @@ label {
 }
 
 .submit_btn:hover {
-	color: #323232;
-	border: 1px solid #323232;
+	color: #4CAF50;
+	border: 1px solid #4CAF50;
 	transform: translateY(-2px);
 }

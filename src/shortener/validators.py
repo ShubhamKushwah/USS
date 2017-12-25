@@ -18,7 +18,7 @@ def validate_url(value):
 		raise ValidationError("Invalid URL for this field")
 	return value
 
-def validate_dot_com(value):
-	if not '.com' in value:
-		raise ValidationError("URL must contain .com")
+def validate_dot(value):
+	if not '.' in value:
+		raise ValidationError("URL must contain a .[dot]")
 	return value

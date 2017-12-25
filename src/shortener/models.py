@@ -3,7 +3,7 @@ from django.conf import settings
 from django.db import models
 from django_hosts.resolvers import reverse
 from .utils import code_generator, create_shortcode
-from .validators import validate_url, validate_dot_com
+from .validators import validate_url, validate_dot
 
 SHORTCODE_MAX = getattr(settings, "SHORTCODE_MAX", 16)
 
@@ -23,7 +23,7 @@ class ShortURLManager(models.Manager):
 		return "New Codes made {i}".format(i=new_codes)
 
 class ShortUrl(models.Model):
-	url = models.CharField(max_length=220, validators=[validate_url, validate_dot_com])
+	url = models.CharField(max_length=220, validators=[validate_url, validate_dot])
 	shortcode = models.CharField(max_length=SHORTCODE_MAX, unique=True, blank=True)
 	timestamp = models.DateTimeField(auto_now_add=True)
 	updated = models.DateTimeField(auto_now=True)
