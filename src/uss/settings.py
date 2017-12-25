@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # third party apps
     'django_hosts',
 
+    'analytics',
     'shortener',
 ]
 
@@ -60,6 +61,7 @@ ROOT_URLCONF = 'uss.urls'
 ROOT_HOSTCONF = 'uss.hosts'
 DEFAULT_HOST = 'www'
 DEFAULT_REDIRECT_URL = "http://www.uss.com:8000"
+PARENT_HOST = "uss.com:8000"
 
 TEMPLATES = [
     {
