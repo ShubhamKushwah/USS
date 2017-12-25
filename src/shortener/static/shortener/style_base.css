@@ -5,7 +5,8 @@ html, body {
 }
 
 body {
-	background-color: #f8f8f8;
+	background-image: url("http://www.baltana.com/files/wallpapers-5/Light-Background-HQ-Desktop-Wallpaper-16376.jpg");
+	background-size: cover;
 	font-family: 'Open Sans', sans-serif;
 }
 

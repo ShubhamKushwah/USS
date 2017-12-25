@@ -3,20 +3,17 @@ from django.core.validators import URLValidator
 
 def validate_url(value):
 	url_validator = URLValidator()
-	value_1_valid = False
-	value_2_valid = False
+	if "http" in value:
+		final_value = value
+	else:
+		final_value = "http://" + value
+
 	try:
-		url_validator(value)
+		url_validator(final_value)
 	except:
-		value_1_valid = True
-	value_2_url = "http://" + value
-	try:
-		url_validator(value_2_url)
-	except:
-		value_2_valid = True
-	if value_1_valid == False and value_2_valid == False:
-		raise ValidationError("Invalid URL for this field")
-	return value
+		raise forms.ValidationError("This is an invalid URL")
+
+	return final_value
 
 def validate_dot(value):
 	if not '.' in value:

@@ -8,3 +8,9 @@ class SubmitUrlForm(forms.Form):
     			attrs = {"placeholder": "Enter your long url"}
     		)
     	)
+
+    def clean_url(self):
+    	url = self.cleaned_data['url']
+    	if "http" in url:
+    		return url
+    	return "http://" + url
