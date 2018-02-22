@@ -3,6 +3,9 @@ Enter a url and it will be shortened for you...
 
 ## Features
 
+- Get an id for the shortened url.
+- Delete/modify your urls.
+- All urls can be seen and edited on a single page
 - Get live count of how many times, the url has been visited.
 - Manage all your URLs.
 
